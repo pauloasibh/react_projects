@@ -1,0 +1,68 @@
+
+.containerLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.titleArea{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px;
+}
+.titleArea a{
+    text-decoration: none;
+    color: white;
+}
+.linkArea{
+    background: rgb(255, 255, 255, 0.15);
+    width: 600px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 4px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.linkArea a{
+    background: transparent;
+    border: 0;
+    width: 90%;
+    margin-left: 5px;
+    margin-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.linkArea button{
+    background: transparent;
+    border:0;
+}
+.emptySpan{
+    color:#fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+@media (max-width: 700px){
+    .linkArea{
+        width: 90%;
+    }
+    .titleArea{
+        width: 90%;
+    }
+}
